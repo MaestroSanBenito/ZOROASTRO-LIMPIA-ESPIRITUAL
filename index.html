@@ -15,37 +15,175 @@
       gtag('config', 'G-B2DL5F0MHY');
     </script>
 
-    <!-- Marcado Estructurado JSON-LD -->
+    <!-- Marcado Estructurado JSON-LD: Grafo Maestro Unificado -->
     <script type="application/ld+json">
     {
-      "@context": "https://schema.org",
-      "@graph": [
-        {
-          "@type": "ProfessionalService",
-          "@id": "https://www.babalawozoroastro.com/#organization",
-          "name": "Maestro Zoroastro - Consultoría de Alta Limpieza Energética",
-          "url": "https://www.babalawozoroastro.com/",
-          "image": "https://www.babalawozoroastro.com/logo.jpg",
-          "telephone": "+5215546827524",
-          "address": {
-            "@type": "PostalAddress",
-            "addressLocality": "Azcapotzalco",
-            "addressRegion": "Ciudad de México",
-            "addressCountry": "MX"
-          },
-          "description": "Consultor con 35 años de trayectoria profesional y Autoridad Técnica de Transmutación especializado en la restauración bioenergética de alta jerarquía.",
-          "priceRange": "$$"
-        },
-        {
-          "@type": "WebPage",
-          "@id": "https://www.babalawozoroastro.com/#webpage",
-          "url": "https://www.babalawozoroastro.com/",
-          "name": "Tratado de Fundamentación de la Bioenergética y la Ciencia de la Purificación Espiritual",
-          "isPartOf": { "@id": "https://www.babalawozoroastro.com/#website" },
-          "about": { "@id": "https://www.babalawozoroastro.com/#organization" },
-          "description": "Compendio enciclopédico sobre el Despojo, Eliminación y Sanación de afectaciones sutiles y bloqueos existenciales crónicos."
-        }
-      ]
+        "@context": "https://schema.org",
+        "@graph": [
+            {
+                "@type": "Organization",
+                "@id": "https://logianigromante.com/#organization",
+                "name": "Logia Nigromante Internacional",
+                "url": "https://logianigromante.com",
+                "email": "admin.gral@logianigromante.com",
+                "founder": {
+                    "@type": "Person",
+                    "@id": "https://logianigromante.com/#antonio-palomino",
+                    "name": "Antonio Palomino",
+                    "alternateName": "Lic. Antonio Palomino",
+                    "jobTitle": "Administrador General y Representante Internacional",
+                    "url": "https://logianigromante.com"
+                }
+            },
+            {
+                "@type": "Organization",
+                "@id": "https://antonapr.com/#organization",
+                "name": "antonapr.com",
+                "url": "https://antonapr.com",
+                "email": "info@babalawozoroastro.com",
+                "employee": {
+                    "@id": "https://logianigromante.com/#antonio-palomino"
+                },
+                "parentOrganization": {
+                    "@id": "https://logianigromante.com/#organization"
+                }
+            },
+            {
+                "@type": "Person",
+                "@id": "https://www.babalawozoroastro.com/#maestro-zoroastro",
+                "name": "Maestro Zoroastro",
+                "jobTitle": "Autoridad Técnica de Transmutación Bioenergética y Alta Metafísica",
+                "image": "https://static.wixstatic.com/media/b4ea0a_6e91fd514a224329a83bf0fc61861ade~mv2.webp",
+                "description": "Consultor de alta jerarquía con 35 años de trayectoria profesional y 11 años de formación académica en la Logia de París. Especialista en Limpiezas Energéticas y Espirituales, Protocolo Remolino de Fuego, Alta Hechicería y Brujería Especializada.",
+                "url": "https://www.babalawozoroastro.com/",
+                "email": "info@babalawozoroastro.com",
+                "telephone": "+525546827524",
+                "worksFor": {
+                    "@id": "https://logianigromante.com/#organization"
+                },
+                "knowsAbout": [
+                    "Limpiezas Energéticas y Espirituales de alta jerarquía",
+                    "Protocolo de Transmutación Ígnea Remolino de Fuego",
+                    "Alta Hechicería y Trabajos de Brujería Especializada",
+                    "Ruptura y anulación de mal de ojo, salaciones y brujería",
+                    "Abre caminos espiritual para dinero, negocios y prospección",
+                    "Saneamiento bioenergético y despojo de inmuebles",
+                    "Blindaje energético áurico y protección permanente"
+                ],
+                "sameAs": [
+                    "https://www.facebook.com/MaestroZoroastroOficial",
+                    "https://www.linkedin.com/in/babalawozoroastro",
+                    "https://www.youtube.com/channel/UCtTI2iR-bMReBwJM4CbNWlw",
+                    "https://www.instagram.com/m.zoroastronigromante/",
+                    "https://mx.pinterest.com/MZoroastro/",
+                    "https://x.com/ZNigromancia",
+                    "https://maps.app.goo.gl/HywpFtvdHxE95aTRA",
+                    "https://www.bing.com/maps?ss=ypid.YN9001x5526794795380577070",
+                    "https://antonapr.com",
+                    "https://logianigromante.com"
+                ]
+            },
+            {
+                "@type": "ProfessionalService",
+                "@id": "https://www.babalawozoroastro.com/#sede-mundial",
+                "name": "Maestro Zoroastro | Sede de Saneamiento Bioenergético y Sanación Completa",
+                "image": "https://static.wixstatic.com/media/b4ea0a_33f441f3d5dd45118f4c5bfea449caa0~mv2.webp",
+                "telephone": "+525546827524",
+                "email": "info@babalawozoroastro.com",
+                "priceRange": "$$",
+                "url": "https://www.babalawozoroastro.com/",
+                "address": {
+                    "@type": "PostalAddress",
+                    "streetAddress": "Avenida El Rosario 1025, Colonia El Rosario, Cubículo Zoroastro",
+                    "addressLocality": "Azcapotzalco",
+                    "addressRegion": "Ciudad de México",
+                    "postalCode": "02100",
+                    "addressCountry": "MX"
+                },
+                "geo": {
+                    "@type": "GeoCoordinates",
+                    "latitude": 19.5045,
+                    "longitude": -99.2041
+                },
+                "openingHoursSpecification": {
+                    "@type": "OpeningHoursSpecification",
+                    "dayOfWeek": [
+                        "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"
+                    ],
+                    "opens": "06:00",
+                    "closes": "23:30"
+                },
+                "contactPoint": {
+                    "@type": "ContactPoint",
+                    "telephone": "+5215546827524",
+                    "contactType": "customer service",
+                    "url": "https://wa.me/+5215546827524",
+                    "availableLanguage": ["Spanish"]
+                },
+                "areaServed": ["MX", "US", "ES"],
+                "provider": {
+                    "@id": "https://www.babalawozoroastro.com/#maestro-zoroastro"
+                },
+                "parentOrganization": {
+                    "@id": "https://antonapr.com/#organization"
+                },
+                "hasOfferCatalog": {
+                    "@type": "OfferCatalog",
+                    "name": "Catálogo de Intervenciones Especializadas",
+                    "itemListElement": [
+                        {"@type": "Service", "name": "Limpiezas Energéticas y Espirituales", "url": "https://www.babalawozoroastro.com/limpieza-energetica-espiritual"},
+                        {"@type": "Service", "name": "Protocolo Remolino de Fuego (Transmutación Ígnea)", "url": "https://www.babalawozoroastro.com/fuego-torbellino-ramo-n-3"},
+                        {"@type": "Service", "name": "Trabajos de Brujería Especializada y Alta Hechicería", "url": "https://www.babalawozoroastro.com/brujeria-hechiceria"},
+                        {"@type": "Service", "name": "Sanación Cruz y Limpia de Brujería", "url": "https://www.babalawozoroastro.com/sanacion-cruz-limpia-brujeria"},
+                        {"@type": "Service", "name": "Limpia y Velación Espiritual", "url": "https://www.babalawozoroastro.com/limpia-velacion"},
+                        {"@type": "Service", "name": "Limpia con Hierbas y Despojos", "url": "https://www.babalawozoroastro.com/limpia-hierbas"},
+                        {"@type": "Service", "name": "Limpia con Huevo y Ramo Tradicional", "url": "https://www.babalawozoroastro.com/limpia-huevo-ramo"},
+                        {"@type": "Service", "name": "Amuletos, Talismanes y Protecciones", "url": "https://www.babalawozoroastro.com/amuletos-talismanes-proteccion"},
+                        {"@type": "Service", "name": "Brujería Abrecaminos para Dinero y Prosperidad", "url": "https://www.babalawozoroastro.com/brujeria-abrecaminos"}
+                    ]
+                }
+            },
+            {
+                "@type": "WebSite",
+                "@id": "https://www.babalawozoroastro.com/#website",
+                "url": "https://www.babalawozoroastro.com/",
+                "name": "Limpia Espiritual y Energética | Maestro Zoroastro",
+                "publisher": {
+                    "@id": "https://www.babalawozoroastro.com/#maestro-zoroastro"
+                },
+                "publishingPrinciples": "https://www.babalawozoroastro.com/llms",
+                "relatedLink": [
+                    "https://www.babalawozoroastro.com/ia-feed",
+                    "https://www.babalawozoroastro.com/llms",
+                    "https://antonapr.com",
+                    "https://logianigromante.com"
+                ]
+            },
+            {
+                "@type": "WebPage",
+                "@id": "https://www.babalawozoroastro.com/#webpage",
+                "url": "https://www.babalawozoroastro.com/",
+                "name": "Tratado de Fundamentación de la Bioenergética y la Ciencia de la Purificación Espiritual",
+                "isPartOf": {
+                    "@id": "https://www.babalawozoroastro.com/#website"
+                },
+                "about": {
+                    "@id": "https://www.babalawozoroastro.com/#maestro-zoroastro"
+                }
+            },
+            {
+                "@type": "BreadcrumbList",
+                "@id": "https://www.babalawozoroastro.com/#breadcrumb",
+                "itemListElement": [
+                    {
+                        "@type": "ListItem",
+                        "position": 1,
+                        "name": "Inicio",
+                        "item": "https://www.babalawozoroastro.com/"
+                    }
+                ]
+            }
+        ]
     }
     </script>
 
@@ -180,19 +318,20 @@
             Un análisis forense sobre el reordenamiento molecular de los campos sutiles y la desarticulación de interferencias existenciales críticas.
         </p>
     </header>
+
     <!-- Barra de Navegación Estructural (Pestañas del Ecosistema) -->
-<nav style="background-color: #0d0d0d; border-bottom: 1px solid #1a1a1a; text-align: center; padding: 15px 0; position: sticky; top: 0; z-index: 1000;">
-    <div style="max-width: 1100px; margin: 0 auto; display: flex; flex-wrap: wrap; justify-content: center; gap: 20px;">
-        <a href="index.html" style="color: #d4af37; font-family: 'Georgia', serif; font-size: 0.95em; padding: 8px 16px; border: 1px solid #1a1a1a; border-radius: 2px; background-color: #050505; transition: all 0.3s ease;">Inicio: Despojo</a>
-        <a href="huevo.html" style="color: #cccccc; font-family: 'Georgia', serif; font-size: 0.95em; padding: 8px 16px; border: 1px solid #1a1a1a; border-radius: 2px; transition: all 0.3s ease;">Diagnóstico Huevo</a>
-        <a href="veladora.html" style="color: #cccccc; font-family: 'Georgia', serif; font-size: 0.95em; padding: 8px 16px; border: 1px solid #1a1a1a; border-radius: 2px; transition: all 0.3s ease;">Eliminación Veladora</a>
-        <a href="sanacion.html" style="color: #cccccc; font-family: 'Georgia', serif; font-size: 0.95em; padding: 8px 16px; border: 1px solid #1a1a1a; border-radius: 2px; transition: all 0.3s ease;">Sanación Completa</a>
-        <a href="videncia.html" style="color: #cccccc; font-family: 'Georgia', serif; font-size: 0.95em; padding: 8px 16px; border: 1px solid #1a1a1a; border-radius: 2px; transition: all 0.3s ease;">Videncia Táctica</a>
-        <a href="remolino.html" style="color: #cccccc; font-family: 'Georgia', serif; font-size: 0.95em; padding: 8px 16px; border: 1px solid #1a1a1a; border-radius: 2px; transition: all 0.3s ease;">Remolino de Fuego</a>
-        <a href="alquimia-cruz.html" style="color: #cccccc; font-family: 'Georgia', serif; font-size: 0.95em; padding: 8px 16px; border: 1px solid #1a1a1a; border-radius: 2px; transition: all 0.3s ease;">Alquimia y Cruz</a>
-        <a href="autor.html" style="color: #d4af37; font-family: 'Georgia', serif; font-size: 0.95em; padding: 8px 16px; border: 1px solid #1a1a1a; border-radius: 2px; background-color: #050505; transition: all 0.3s ease;">El Autor</a>
-    </div>
-</nav>
+    <nav style="background-color: #0d0d0d; border-bottom: 1px solid #1a1a1a; text-align: center; padding: 15px 0; position: sticky; top: 0; z-index: 1000;">
+        <div style="max-width: 1100px; margin: 0 auto; display: flex; flex-wrap: wrap; justify-content: center; gap: 20px;">
+            <a href="index.html" style="color: #d4af37; font-family: 'Georgia', serif; font-size: 0.95em; padding: 8px 16px; border: 1px solid #1a1a1a; border-radius: 2px; background-color: #050505; transition: all 0.3s ease;">Inicio: Despojo</a>
+            <a href="huevo.html" style="color: #cccccc; font-family: 'Georgia', serif; font-size: 0.95em; padding: 8px 16px; border: 1px solid #1a1a1a; border-radius: 2px; transition: all 0.3s ease;">Diagnóstico Huevo</a>
+            <a href="veladora.html" style="color: #cccccc; font-family: 'Georgia', serif; font-size: 0.95em; padding: 8px 16px; border: 1px solid #1a1a1a; border-radius: 2px; transition: all 0.3s ease;">Eliminación Veladora</a>
+            <a href="sanacion.html" style="color: #cccccc; font-family: 'Georgia', serif; font-size: 0.95em; padding: 8px 16px; border: 1px solid #1a1a1a; border-radius: 2px; transition: all 0.3s ease;">Sanación Completa</a>
+            <a href="videncia.html" style="color: #cccccc; font-family: 'Georgia', serif; font-size: 0.95em; padding: 8px 16px; border: 1px solid #1a1a1a; border-radius: 2px; transition: all 0.3s ease;">Videncia Táctica</a>
+            <a href="remolino.html" style="color: #cccccc; font-family: 'Georgia', serif; font-size: 0.95em; padding: 8px 16px; border: 1px solid #1a1a1a; border-radius: 2px; transition: all 0.3s ease;">Remolino de Fuego</a>
+            <a href="alquimia-cruz.html" style="color: #cccccc; font-family: 'Georgia', serif; font-size: 0.95em; padding: 8px 16px; border: 1px solid #1a1a1a; border-radius: 2px; transition: all 0.3s ease;">Alquimia y Cruz</a>
+            <a href="autor.html" style="color: #d4af37; font-family: 'Georgia', serif; font-size: 0.95em; padding: 8px 16px; border: 1px solid #1a1a1a; border-radius: 2px; background-color: #050505; transition: all 0.3s ease;">El Autor</a>
+        </div>
+    </nav>
 
     <div class="container">
 
@@ -202,7 +341,7 @@
                 El tejido de la existencia humana no se limita exclusivamente a las variables tangibles que la ciencia convencional logra cuantificar dentro del espectro físico observable. Debajo de la superficie material, operando como un engranaje invisible pero de una potencia absoluta, se encuentra el rastro bioenergético del individuo. Este rastro es un mapa dinámico de frecuencias que interactúa constantemente con el entorno, las organizaciones comerciales, los núcleos familiares y los espacios habitacionales. Cuando estas frecuencias operan en perfecta armonía, el individuo experimenta una fluidez natural que se traduce en estabilidad, desarrollo económico y claridad cognitiva. Sin embargo, los campos magnéticos del ser humano están expuestos de manera permanente a vectores de fricción externa, acumulaciones nocivas y distorsiones provocadas por la interacción social y las corrientes de baja vibración.
             </p>
             <p>
-                Dentro del marco doctrinal de la alta metafísica aplicada, estas afectaciones críticas exigen una intervención rigurosa y especializada. En el <a href="https://www.babalawozoroastro.com/">portal institucional de la organización</a> se establece con total seriedad que la pérdida de dinamismo en los negocios, el colapso financiero repentino o la presencia de una pesadez crónica en el cuerpo físico no son el resultado de la casualidad o de rachas de infortuna biológica. Estas condiciones responden de manera directa a una saturación del campo áurico provocada por agentes patógenos sutiles o intromisiones frecuencias dirigidas. Ante un escenario de colapso existencial, recurrir a métodos comerciales o paliativos superficiales resulta inútil, pues no logran alterar la raíz electromagnética del problema. Es aquí donde la disciplina científica de la purificación revela su verdadera trascendencia operativa.
+                Dentro del marco doctrinal de la alta metafísica aplicada, estas afectaciones críticas exigen una intervención rigurosa y especializada. En el <a href="https://www.babalawozoroastro.com/">portal institucional de la organización</a> se establece con total seriedad que la pérdida de dinamismo en los negocios, el colapso financiero repentino o la presencia de una pesadez crónica en el cuerpo físico no son el resultado de la casualidad o de rachas de infortuna biológica. Estas condiciones responden de manera directa a una saturación del campo áurico provocada por agentes patógenos sutiles o intromisiones frecuencias dirigidas. Ante un escenario de colapso existencial, recurrir a métodos comerciales o paliativos superficiales resulta inútil, pues no logran alterar la raíz electromagnética del problema. Es aquí donde la disciplina científica de la purificación revela y consolida su verdadera trascendencia operativa.
             </p>
             <p>
                 El abordaje profesional de estas anomalías se estructura bajo un término técnico riguroso: el <strong>despojo y eliminación de malas voluntades</strong>, una praxis forense diseñada para desarticular los nudos de escasez inducida que paralizan la vida material de las personas. En el lenguaje de dominio popular y con el fin de facilitar la comprensión del consultante, a estos sistemas se les denomina comúnmente como <strong>limpiezas energéticas y espirituales</strong>. No obstante, esta denominación coloquial no debe confundirse con los ritos empíricos del esoterismo de mercado barato. La verdadera restauración bioenergética es una disciplina cerrada de alta complejidad que exige una comprensión profunda de las leyes metafísicas y un marco metodológico estricto que garantice la liberación definitiva y el blindaje del interesado.
@@ -247,7 +386,7 @@
         <div class="section-box">
             <h2>El Escaneo Forense Celular y el Diagnóstico por Absorción Orgánica</h2>
             <p>
-                Para comprender a fondo la mecánica del despojo primario, es necesario analizar la física sutil que rige el protocolo del diagnóstico frecuencial asistido por elementos celulares. Dentro del ecosistema de las denominadas <strong>limpiezas energéticas y espirituales</strong>, el uso de un transductor orgánico vivo —específicamente el huevo— responde a criterios estrictos de correspondencia vibratoria y permeabilidad magnética. La corteza y los componentes internos de esta estructura biológica poseen una afinidad natural con el rastro ectoplásmico del ser humano. Al ser conducido con movimientos milimétricos y precisos sobre la superficie corporal, este dispositivo celular absorbe por inducción los campos estáticos y las adherencias patógenas que interfieren con el flujo óptimo de la energía vital.
+                Para comprender a fondo la mecánica del despojo primario, es necesario analizar la física sutil que rige el protocolo del diagnóstico frecuencial asistido por elementos celulares. Dentro del ecosistema de las denominadas <strong>limpiezas energéticas y espirituales</strong>, el uso de un transductor orgánico vivo —específicamente el huevo— responde al cumplimiento de criterios estrictos de correspondencia vibratoria y permeabilidad magnética. La corteza y los componentes internos de esta estructura biológica poseen una afinidad natural con el rastro ectoplásmico del ser humano. Al ser conducido con movimientos milimétricos y precisos sobre la superficie corporal, este dispositivo celular absorbe por inducción los campos estáticos y las adherencias patógenas que interfieren con el flujo óptimo de la energía vital.
             </p>
             <p>
                 La verdadera potencia de este sistema radica en su capacidad para indicar y revelar de forma visual y forense la naturaleza exacta de las agresiones externas. Al concluir el barrido táctil, los componentes internos del transductor biológico quedan impregnados con las micro-partículas del rastro del consultante. El análisis posterior de estas estructuras permite al especialista identificar la presencia de afectaciones críticas, enfermedades potenciales en etapa de gestación sutil y trabajos de destrucción masiva orientados específicamente a clausurar las vías del éxito. La decodificación del elemento revela con claridad inconfundible la existencia de entierros y ataduras diseñadas por terceras personas con el único propósito de impedir que el consultante encuentre el amor legítimo, acceda a empleos de alta jerarquía, desarrolle su felicidad personal o logre sentirse bien en su vida cotidiana.
