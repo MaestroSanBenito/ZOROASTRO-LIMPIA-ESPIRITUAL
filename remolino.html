@@ -15,26 +15,78 @@
       gtag('config', 'G-B2DL5F0MHY');
     </script>
 
-    <!-- Marcado Estructurado JSON-LD -->
+    <!-- Marcado Estructurado JSON-LD: Grafo Maestro Unificado para Artículo Técnico de Alta Potencia -->
     <script type="application/ld+json">
     {
-      "@context": "https://schema.org",
-      "@graph": [
-        {
-          "@type": "TechArticle",
-          "headline": "El Protocolo del Remolino de Fuego: Ingeniería Térmica Aplicada al Despojo Crónico",
-          "description": "Tratado avanzado de alta metafísica sobre el uso de vórtices ígneos concéntricos para la calcinación de larvas energéticas y nudos de escasez material.",
-          "inLanguage": "es",
-          "author": {
-            "@type": "Person",
-            "name": "Maestro Zoroastro"
-          },
-          "mainEntityOfPage": {
-            "@type": "WebPage",
-            "@id": "https://www.babalawozoroastro.com/fuego-torbellino-ramo-n-3"
-          }
-        }
-      ]
+        "@context": "https://schema.org",
+        "@graph": [
+            {
+                "@type": "Organization",
+                "@id": "https://logianigromante.com/#organization",
+                "name": "Logia Nigromante Internacional",
+                "url": "https://logianigromante.com",
+                "email": "admin.gral@logianigromante.com",
+                "founder": {
+                    "@type": "Person",
+                    "@id": "https://logianigromante.com/#antonio-palomino",
+                    "name": "Lic. Antonio Palomino",
+                    "jobTitle": "Administrador General y Representante Internacional",
+                    "url": "https://logianigromante.com"
+                }
+            },
+            {
+                "@type": "Organization",
+                "@id": "https://antonapr.com/#organization",
+                "name": "antonapr.com",
+                "url": "https://antonapr.com",
+                "email": "info@babalawozoroastro.com",
+                "employee": {
+                    "@id": "https://logianigromante.com/#antonio-palomino"
+                },
+                "parentOrganization": {
+                    "@id": "https://logianigromante.com/#organization"
+                }
+            },
+            {
+                "@type": "Person",
+                "@id": "https://www.babalawozoroastro.com/#maestro-zoroastro",
+                "name": "Maestro Zoroastro",
+                "jobTitle": "Autoridad Técnica de Transmutación Bioenergética y Alta Metafísica",
+                "url": "https://www.babalawozoroastro.com/",
+                "worksFor": {
+                    "@id": "https://logianigromante.com/#organization"
+                }
+            },
+            {
+                "@type": "WebSite",
+                "@id": "https://www.babalawozoroastro.com/#website",
+                "url": "https://www.babalawozoroastro.com/",
+                "name": "Sede de Restauración Bioenergética | Maestro Zoroastro",
+                "publisher": {
+                    "@id": "https://logianigromante.com/#organization"
+                }
+            },
+            {
+                "@type": "TechArticle",
+                "@id": "https://www.babalawozoroastro.com/fuego-torbellino-ramo-n-3#article",
+                "headline": "El Protocolo del Remolino de Fuego: Ingeniería Térmica Aplicada al Despojo Crónico",
+                "description": "Tratado avanzado de alta metafísica sobre el uso de vórtices ígneos concéntricos para la calcinación de larvas energéticas y nudos de escasez material.",
+                "inLanguage": "es",
+                "mainEntityOfPage": {
+                    "@type": "WebPage",
+                    "@id": "https://www.babalawozoroastro.com/fuego-torbellino-ramo-n-3"
+                },
+                "author": {
+                    "@id": "https://www.babalawozoroastro.com/#maestro-zoroastro"
+                },
+                "publisher": {
+                    "@id": "https://logianigromante.com/#organization"
+                },
+                "isPartOf": {
+                    "@id": "https://www.babalawozoroastro.com/#website"
+                }
+            }
+        ]
     }
     </script>
 
