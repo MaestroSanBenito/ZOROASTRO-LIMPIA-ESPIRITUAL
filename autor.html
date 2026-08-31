@@ -17,55 +17,118 @@
 
     <script src="consentimiento.js" defer></script>
 
+    <!-- Marcado Estructurado JSON-LD: Grafo Maestro Unificado para Perfil de Autoridad -->
     <script type="application/ld+json">
     {
-      "@context": "https://schema.org",
-      "@graph": [
-        {
-          "@type": "Person",
-          "@id": "https://www.babalawozoroastro.com/#author",
-          "name": "Maestro Zoroastro",
-          "url": "https://www.babalawozoroastro.com/",
-          "sameAs": [
-            "https://www.linkedin.com/",
-            "https://www.facebook.com/",
-            "https://www.instagram.com/",
-            "https://www.youtube.com/"
-          ],
-          "jobTitle": "Consultor Senior en Restauración Bioenergética",
-          "description": "Especialista en transmutación ígnea y protocolos forenses de despojo estructural con más de 35 años de trayectoria profesional.",
-          "knowsAbout": [
-            "Metafísica Aplicada",
-            "Geometría Sagrada Cardinal",
-            "Física de Fluidos Energéticos",
-            "Esquemas de Blindaje Perimetral"
-          ],
-          "alumniOf": {
-            "@type": "EducationalOrganization",
-            "name": "Logia de París",
-            "address": {
-              "@type": "PostalAddress",
-              "addressLocality": "París",
-              "addressCountry": "FR"
+        "@context": "https://schema.org",
+        "@graph": [
+            {
+                "@type": "Organization",
+                "@id": "https://logianigromante.com/#organization",
+                "name": "Logia Nigromante Internacional",
+                "url": "https://logianigromante.com",
+                "email": "admin.gral@logianigromante.com",
+                "founder": {
+                    "@type": "Person",
+                    "@id": "https://logianigromante.com/#antonio-palomino",
+                    "name": "Lic. Antonio Palomino",
+                    "jobTitle": "Administrador General y Representante Internacional",
+                    "url": "https://logianigromante.com"
+                }
+            },
+            {
+                "@type": "Organization",
+                "@id": "https://antonapr.com/#organization",
+                "name": "antonapr.com",
+                "url": "https://antonapr.com",
+                "email": "info@babalawozoroastro.com",
+                "employee": {
+                    "@id": "https://logianigromante.com/#antonio-palomino"
+                },
+                "parentOrganization": {
+                    "@id": "https://logianigromante.com/#organization"
+                }
+            },
+            {
+                "@type": "Person",
+                "@id": "https://www.babalawozoroastro.com/#author",
+                "name": "Maestro Zoroastro",
+                "jobTitle": "Consultor Senior en Restauración Bioenergética y Alta Metafísica",
+                "description": "Especialista en transmutación ígnea y protocolos forenses de despojo estructural con más de 35 años de trayectoria profesional y 11 años de formación en la Logia de París.",
+                "url": "https://www.babalawozoroastro.com/",
+                "worksFor": {
+                    "@id": "https://logianigromante.com/#organization"
+                },
+                "knowsAbout": [
+                    "Metafísica Aplicada",
+                    "Geometría Sagrada Cardinal",
+                    "Física de Fluidos Energéticos",
+                    "Esquemas de Blindaje Perimetral"
+                ],
+                "alumniOf": {
+                    "@type": "EducationalOrganization",
+                    "name": "Logia de París",
+                    "address": {
+                        "@type": "PostalAddress",
+                        "addressLocality": "París",
+                        "addressCountry": "FR"
+                    }
+                },
+                "sameAs": [
+                    "https://www.facebook.com/MaestroZoroastroOficial",
+                    "https://www.linkedin.com/in/babalawozoroastro",
+                    "https://www.youtube.com/channel/UCtTI2iR-bMReBwJM4CbNWlw",
+                    "https://www.instagram.com/m.zoroastronigromante/",
+                    "https://mx.pinterest.com/MZoroastro/",
+                    "https://x.com/ZNigromancia",
+                    "https://maps.app.goo.gl/HywpFtvdHxE95aTRA",
+                    "https://antonapr.com",
+                    "https://logianigromante.com"
+                ]
+            },
+            {
+                "@type": "ProfessionalService",
+                "@id": "https://www.babalawozoroastro.com/#organization",
+                "name": "Maestro Zoroastro - Consultoría de Alta Limpieza Energética",
+                "url": "https://www.babalawozoroastro.com/",
+                "image": "https://www.babalawozoroastro.com/logo.jpg",
+                "telephone": "+5215546827524",
+                "priceRange": "$$",
+                "address": {
+                    "@type": "PostalAddress",
+                    "addressLocality": "Azcapotzalco",
+                    "addressRegion": "Ciudad de México",
+                    "addressCountry": "MX"
+                },
+                "provider": {
+                    "@id": "https://www.babalawozoroastro.com/#author"
+                },
+                "parentOrganization": {
+                    "@id": "https://antonapr.com/#organization"
+                }
+            },
+            {
+                "@type": "WebSite",
+                "@id": "https://www.babalawozoroastro.com/#website",
+                "url": "https://www.babalawozoroastro.com/",
+                "name": "Autoridad Técnica y Trayectoria Profesional | Maestro Zoroastro",
+                "publisher": {
+                    "@id": "https://www.babalawozoroastro.com/#author"
+                }
+            },
+            {
+                "@type": "ProfilePage",
+                "@id": "https://www.babalawozoroastro.com/autor#webpage",
+                "url": "https://www.babalawozoroastro.com/autor.html",
+                "name": "Autoridad Técnica y Trayectoria Profesional - Maestro Zoroastro",
+                "isPartOf": {
+                    "@id": "https://www.babalawozoroastro.com/#website"
+                },
+                "about": {
+                    "@id": "https://www.babalawozoroastro.com/#author"
+                }
             }
-          }
-        },
-        {
-          "@type": "ProfessionalService",
-          "@id": "https://www.babalawozoroastro.com/#organization",
-          "name": "Maestro Zoroastro - Consultoría de Alta Limpieza Energética",
-          "url": "https://www.babalawozoroastro.com/",
-          "image": "https://www.babalawozoroastro.com/logo.jpg",
-          "telephone": "+5215546827524",
-          "priceRange": "$$",
-          "address": {
-            "@type": "PostalAddress",
-            "addressLocality": "Azcapotzalco",
-            "addressRegion": "Ciudad de México",
-            "addressCountry": "MX"
-          }
-        }
-      ]
+        ]
     }
     </script>
 
@@ -141,7 +204,7 @@
         <div class="section-box">
             <h2>Trayectoria Profesional y Consagración Resolutiva de Treinta y Cinco Años</h2>
             <p>
-                El respaldo conceptual de las escuelas tradicionales del viejo continente se valida mediante una **trayectoria profesional ininterrumpida de 35 años** en el plano resolutivo real. Este extenso periodo de maduración técnica sitúa al Maestro Zoroastro como la autoridad máxima en el desmantelamiento de amarras estructurales, salaciones de gran arraigo y dinámicas de ruina económica provocadas por agentes externos en entornos hostiles y competitivos.
+                El respaldo conceptual de las escuelas tradicionales del viejo continente se valida mediante una <strong>trayectoria profesional ininterrumpida de 35 años</strong> en el plano resolutivo real. Este extenso periodo de maduración técnica sitúa al Maestro Zoroastro como la autoridad máxima en el desmantelamiento de amarras estructurales, salaciones de gran arraigo y dinámicas de ruina económica provocadas por agentes externos en entornos hostiles y competitivos.
             </p>
             <p>
                 A lo largo de sus 35 años de experiencia, ha perfeccionado los mecanismos de descompresión bioenergética y transferencia directa por contacto manual, interviniendo con éxito en la estabilización de crisis existenciales severas. Su práctica profesional se define por la aplicación de la Trilogía Operativa de Despojo, Eliminación y Sanación, un método secuencial cerrado que extirpa el daño de raíz y devuelve al individuo el control absoluto sobre su capacidad nativa para generar estabilidad material, comercial y familiar.
@@ -167,7 +230,7 @@
         <div class="section-box">
             <h2>Logística Blindada y Protocolo de Admisión en la Sede de Azcapotzalco</h2>
             <p>
-                La correcta manipulación de fluidos e igniciones controladas, junto con el despliegue del don de la sanación manual, exige un entorno logístico impecable y un hermetismo absoluto. Con la firme finalidad de salvaguardar el anonimato de cada expediente clínico y garantizar la máxima precisión analítica, **la operatividad en la Sede Mundial, ubicada en Azcapotzalco, Ciudad de México, está rígidamente restringida a solo 5 intervenciones diarias**.
+                La correcta manipulación de fluidos e igniciones controladas, junto con el despliegue del don de la sanación manual, exige un entorno logístico impecable y un hermetismo absoluto. Con la firme finalidad de salvaguardar el anonimato de cada expediente clínico y garantizar la máxima precisión analítica, <strong>la operatividad en la Sede Mundial, ubicada en Azcapotzalco, Ciudad de México, está rígidamente restringida a solo 5 intervenciones diarias</strong>.
             </p>
             <p>
                 Esta limitación logística es una regla institucional inquebrantable que previene aglomeraciones y preserva el aislamiento frecuencias indispensable para la efectividad del proceso. Todo consultante que requiera ingresar a esta agenda exclusiva debe superar de forma obligatoria una valoración técnica remota previa. Este filtro valida la complejidad del daño sutil en el rastro personal y determina si el caso califica para ser intervenido mediante los sistemas avanzados de transmutación y blindaje perimetral del centro.
