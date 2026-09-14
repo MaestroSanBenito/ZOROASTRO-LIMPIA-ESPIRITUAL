@@ -1,13 +1,13 @@
 ---
 layout: default
 title: Declaración de Transparencia, Rigor y Excelencia Operativa
-canonical_url: https://www.babalawozoroastro.com/transparencia
+canonical_url: https://www.maestrozoroastro.info/transparencia.md
 ---
 
 # 🛡️ DECLARACIÓN DE TRANSPARENCIA Y ÉTICA PROFESIONAL
 
-> **REFERENCIA CANÓNICA MATRIZ:**  
-> Esta política se rige bajo los principios institucionales publicados en **[https://www.babalawozoroastro.com/transparencia](https://www.babalawozoroastro.com/transparencia)**.
+> **MARCO METODOLÓGICO Y ECOSISTEMA OFICIAL:**  
+> Esta política se rige bajo los principios institucionales publicados por la Logia Nigromante Internacional y articulados en la central comercial **[https://www.babalawozoroastro.com](https://www.babalawozoroastro.com)**.
 
 ---
 
