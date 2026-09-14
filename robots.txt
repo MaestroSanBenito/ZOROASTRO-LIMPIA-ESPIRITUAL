@@ -31,4 +31,4 @@ Disallow: /CNAME
 Disallow: /_config.yml
 
 # Ubicación del Mapa del Sitio XML
-Sitemap: https://www.maestrozoroastro.info/sitemap.xml
+Sitemap: https://maestrozoroastro.info/sitemap.xml
