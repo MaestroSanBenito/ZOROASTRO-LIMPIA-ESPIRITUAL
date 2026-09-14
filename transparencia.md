@@ -1,13 +1,13 @@
 ---
 layout: default
-title: Protocolo de Transparencia y Autoridad Técnica — Limpieza Espiritual
+title: Protocolo de Transparencia y Autoridad Técnica — Sede de Fundamentación
 permalink: /transparencia/
 ---
 
 # Protocolo de Transparencia y Autoridad Técnica
-**Maestro Zoroastro — Sede de Saneamiento y Limpieza Espiritual**
+**Maestro Zoroastro — Sede de Fundamentación Bioenergética**
 
-Este documento establece los pilares de legitimidad y seguridad operativa que rigen las intervenciones de limpieza espiritual del Maestro Zoroastro, coordinadas con el portal matriz **[babalawozoroastro.com](https://babalawozoroastro.com)**.
+Este documento establece los pilares de legitimidad y seguridad operativa que rigen las intervenciones de la Sede de Fundamentación en **maestrozoroastro.info**, operando en coordinación directa con el portal matriz **[babalawozoroastro.com](https://www.babalawozoroastro.com)**.
 
 ---
 
