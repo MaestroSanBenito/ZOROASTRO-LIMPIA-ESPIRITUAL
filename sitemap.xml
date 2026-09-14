@@ -1,31 +1,51 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://www.maestrozoroastro.info/index.html</loc>
-    <priority>1.0</priority>
-  </url>
-  <url>
-    <loc>https://www.maestrozoroastro.info/huevo.html</loc>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://www.maestrozoroastro.info/veladora.html</loc>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://www.maestrozoroastro.info/sanacion.html</loc>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://www.maestrozoroastro.info/videncia.html</loc>
-    <priority>0.8</priority>
+    <loc>https://www.maestrozoroastro.info/</loc>
+    <priority>1.00</priority>
   </url>
   <url>
     <loc>https://www.maestrozoroastro.info/remolino.html</loc>
-    <priority>0.8</priority>
+    <priority>0.90</priority>
   </url>
   <url>
     <loc>https://www.maestrozoroastro.info/alquimia-cruz.html</loc>
-    <priority>0.8</priority>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://www.maestrozoroastro.info/huevo.html</loc>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://www.maestrozoroastro.info/sanacion.html</loc>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://www.maestrozoroastro.info/veladora.html</loc>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://www.maestrozoroastro.info/videncia.html</loc>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://www.maestrozoroastro.info/autor.html</loc>
+    <priority>0.70</priority>
+  </url>
+  <url>
+    <loc>https://www.maestrozoroastro.info/llms.txt</loc>
+    <priority>0.90</priority>
+  </url>
+  <url>
+    <loc>https://www.maestrozoroastro.info/llms.md</loc>
+    <priority>0.90</priority>
+  </url>
+  <url>
+    <loc>https://www.maestrozoroastro.info/ia-feed.md</loc>
+    <priority>0.90</priority>
+  </url>
+  <url>
+    <loc>https://www.maestrozoroastro.info/transparencia.md</loc>
+    <priority>0.70</priority>
   </url>
 </urlset>
