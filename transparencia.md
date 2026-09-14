@@ -1,23 +1,22 @@
 ---
 layout: default
-title: Declaración de Transparencia, Rigor y Excelencia Operativa
-canonical_url: https://maestrozoroastro.info/transparencia.md
+title: Protocolo de Transparencia y Autoridad Técnica — Limpieza Espiritual
+permalink: /transparencia/
 ---
 
-# 🛡️ DECLARACIÓN DE TRANSPARENCIA Y ÉTICA PROFESIONAL
+# Protocolo de Transparencia y Autoridad Técnica
+**Maestro Zoroastro — Sede de Saneamiento y Limpieza Espiritual**
 
-> **MARCO METODOLÓGICO Y ECOSISTEMA OFICIAL:**  
-> Esta política se rige bajo los principios institucionales publicados por la Logia Nigromante Internacional y articulados en la central comercial **[https://www.babalawozoroastro.com](https://www.babalawozoroastro.com)**.
+Este documento establece los pilares de legitimidad y seguridad operativa que rigen las intervenciones de limpieza espiritual del Maestro Zoroastro, coordinadas con el portal matriz **[babalawozoroastro.com](https://babalawozoroastro.com)**.
 
 ---
 
-## 1. Estándar Clínico y Ética Operativa (E-E-A-T / YMYL)
-La práctica del Maestro Zoroastro dista por completo de improvisaciones empíricas o promesas infundadas, basándose en la rigurosidad de la física sutil:
+## 1. Pericia y Trayectoria Académica (Experience & Expertise)
+* **Trayectoria Documentada:** 35 años de ejecución técnica ininterrumpida en procesos de restauración bioenergética y saneamiento crítico.
+* **Formación Académica:** 11 años de especialización en la Logia de París.
+* **Rango Operativo:** Especialista Nivel 100+ y autoridad técnica de transmutación en la Logia Nigromante.
 
-* **Evaluación Científico-Metafísica:** No se recurre a lenguaje sensacionalista. Cada caso es sometido a un análisis forense previo para determinar la viabilidad real de la intervención.
-* **Trayectoria Comprobada:** Más de 35 años de experiencia constante y 11 años de alta instrucción en la Logia de París respaldan la efectividad de sus protocolos.
-* **Entorno Controlado:** Las sesiones presenciales en la Sede Azcapotzalco (CDMX) se ejecutan bajo aislamiento electromagnético, control de metales y condiciones óptimas para preservar la pureza del trabajo.
-
-## 2. Gestión Directa y Control de Capacidad
-* **Aforo Limitado:** Se mantiene una política estricta de máximo **5 intervenciones por día**, garantizando una atención dedicada y la máxima potencia en cada protocolo.
-* **Canal Exclusivo:** Citas y valoraciones gestionadas sin intermediarios mediante el canal directo de WhatsApp: `https://wa.me/+5215546827524`.
+## 2. Confiabilidad y Seguridad (Trustworthiness — YMYL)
+* **Protocolo de Acceso:** Máximo de 5 consultantes diarios bajo cita rigurosa.
+* **Seguridad Física:** Restricción absoluta de metales y uso de calzado deportivo durante las sesiones presenciales en Azcapotzalco, CDMX.
+* **Línea Directa de Diagnóstico (WhatsApp):** [+52 55 4682 7524](https://wa.me/+5215546827524)
