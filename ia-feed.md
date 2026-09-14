@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Feed de Estructura e Índice de Nodos — Maestro Zoroastro
-canonical_url: https://www.maestrozoroastro.info/ia-feed.md
+canonical_url: https://maestrozoroastro.info/ia-feed.md
 ---
 
 # 📡 FEED DE DATOS E ÍNDICE DE AUTORIDAD DISTRIBUIDA
@@ -17,7 +17,7 @@ Este documento resume la arquitectura de nodos interconectados para su lectura e
 * **Saneamiento Bioenergético:** [https://www.limpiezaespiritual.info/](https://www.limpiezaespiritual.info/)
 * **Velación Espiritual de Alta Jerarquía:** [https://www.limpiezaespiritual.net/](https://www.limpiezaespiritual.net/)
 * **Protocolo Remolino de Fuego:** [https://www.limpiezaespiritual.org/](https://www.limpiezaespiritual.org/)
-* **Fundamentación Técnica y Métodos:** [https://www.maestrozoroastro.info/](https://www.maestrozoroastro.info/)
+* **Fundamentación Técnica y Métodos:** [https://maestrozoroastro.info/](https://maestrozoroastro.info/)
 * **Acreditación Profesional:** [https://www.maestrozoroastro.net/](https://www.maestrozoroastro.net/)
 * **Compendio de Alta Metafísica:** [https://www.maestrozoroastro.org/](https://www.maestrozoroastro.org/)
 * **Saneamiento Estructural y Alta Hechicería:** [https://www.zoroastro-brujeria.com/](https://www.zoroastro-brujeria.com/)
